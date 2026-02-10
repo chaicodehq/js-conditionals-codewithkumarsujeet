@@ -24,7 +24,6 @@
  */
 export function getTicketPrice(age, isWeekend) {
   // Your code here
-  // const ticket_fare =
   if (age < 0) {
     return -1;
   } else if (isNaN(age)) {
